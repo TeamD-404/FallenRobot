@@ -71,7 +71,7 @@ WORKDIR /root/FallenRobot
 #Copy config file to /root/FallenRobot/FallenRobot
 COPY ./FallenRobot/config.py ./FallenRobot/config.py* /root/FallenRobot/FallenRobot/
 
-ENV PATH="/home/bot/bin:$PATH"
+#ENV PATH="/home/bot/bin:$PATH"
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
